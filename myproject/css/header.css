@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* 以上是初始化的css */
+.container .header{
+    width: 1583px;
+    height: 100px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.header div{
+    float: left;
+}
+.header .logo{
+    width: 130px;
+    height: 100px;
+    margin-left: 30px;
+}
+.header .logo::before{
+    display: table;
+    content: "";
+}
+.header .logo a {
+    display: block;
+    width: 130px;
+    height: 42.41px;
+    margin-top: 30px;
+    background:url(../img/logo.png);
+    background-size: contain;
+}
+/* 导航栏 */
+.header .nav {
+    width: 750px;
+    height: 99px;
+    margin-left: 218px;
+}
+.header .nav .nav-item,
+.header .others li{
+    float: left;
+}
+.header .nav .nav-item a,.header .others li a{
+    display: block;
+    width: 104px;
+    height: 100px;
+    line-height: 100px;
+    color: #666;
+    text-align: center;
+}
+.header .nav .nav-item a:hover{
+     border-bottom: 2px solid #23a96f;
+}
+.header .others{
+    width: 330px;
+    height: 100px;
+    margin-left: 50px;
+}
+/* 二级导航栏 */
+/* .secondhand-market{
+    width: 1583px;
+    height: 100px;
+    background: #f65;
+} */
